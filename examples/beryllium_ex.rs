@@ -69,6 +69,7 @@ fn main() {
       }
     }
 
+    // draw
     unsafe {
       glClearColor(
         ptr_x as f32 / win_width as f32,
@@ -80,6 +81,7 @@ fn main() {
 
     unsafe { glClear(GL_COLOR_BUFFER_BIT) };
 
+    // flip
     win.swap_window();
   }
 
