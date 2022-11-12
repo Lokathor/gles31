@@ -1,0 +1,10 @@
+[package]
+name = "gles31"
+description = "Bindings for OpenGL ES 3.1"
+repository = "https://github.com/Lokathor/gles31"
+version = "1.0.0"
+edition = "2021"
+license = "Zlib OR Apache-2.0 OR MIT"
+
+[dev-dependencies]
+beryllium = "0.0.19"
