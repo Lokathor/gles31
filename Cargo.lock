@@ -27,7 +27,7 @@ checksum = "ae7c97dad10911043ee521c4ff88efc96949a277133f6f7994bafe8631a76045"
 
 [[package]]
 name = "gles31"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "beryllium",
 ]
